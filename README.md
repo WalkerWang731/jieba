@@ -1,7 +1,11 @@
 jieba
 ========
-v20180827: 增加自定义词库中可以匹配到有符号的词, 任何符号通配, 且不会被符号切割.
+自定义修改内容
+--------
+v20180827: 增加自定义词库中可以匹配到有符号（含空格）的词. 如果词库里的词包含了符号或空格时, 会优先按照词库匹配, 如果未匹配到, 则会按照标点符号切分. 
 
+以下为官方文档
+--------
 “结巴”中文分词：做最好的 Python 中文分词组件
 
 "Jieba" (Chinese for "to stutter") Chinese text segmentation: built to be the best Python Chinese word segmentation module.
