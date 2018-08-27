@@ -78,6 +78,7 @@ re_han = re.compile("([\u4E00-\u9FD5]+)")
 re_skip = re.compile("([a-zA-Z0-9]+(?:\.\d+)?%?)")
 
 
+
 def add_force_split(word):
     global Force_Split_Words
     Force_Split_Words.add(word)
